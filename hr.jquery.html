@@ -44,7 +44,7 @@
             $.each(laborers, (i, laborer) => {
                 laborerArr.unshift(
                     `<tr>
-                        <td><input type='radio' value='${laborer.laborerId}' id='laborerId'/></td>
+                        <td><input type='radio' value='${laborer.laborerId}' id='laborerId' name='laborerId'/></td>
                         <td>${laborer.laborerId}</td>
                         <td>${laborer.laborerName}</td>
                         <td>${laborer.hireDate}</td>
